@@ -1,0 +1,152 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch UnrealLearningKit2 (Debug)",
+			"request": "launch",
+			"program": "C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
+			"preLaunchTask": "UnrealLearningKit2 Win64 Debug Build",
+			"args": [
+			],
+			"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch UnrealLearningKit2 (DebugGame)",
+			"request": "launch",
+			"program": "C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
+			"preLaunchTask": "UnrealLearningKit2 Win64 DebugGame Build",
+			"args": [
+			],
+			"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch UnrealLearningKit2 (Development)",
+			"request": "launch",
+			"program": "C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\Binaries\\Win64\\UnrealGame.exe",
+			"preLaunchTask": "UnrealLearningKit2 Win64 Development Build",
+			"args": [
+			],
+			"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch UnrealLearningKit2 (Test)",
+			"request": "launch",
+			"program": "C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
+			"preLaunchTask": "UnrealLearningKit2 Win64 Test Build",
+			"args": [
+			],
+			"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch UnrealLearningKit2 (Shipping)",
+			"request": "launch",
+			"program": "C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
+			"preLaunchTask": "UnrealLearningKit2 Win64 Shipping Build",
+			"args": [
+			],
+			"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch UnrealLearningKit2Editor (Debug)",
+			"request": "launch",
+			"program": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-Debug.exe",
+			"preLaunchTask": "UnrealLearningKit2Editor Win64 Debug Build",
+			"args": [
+				"C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\ObstacleAssault.uproject"
+			],
+			"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch UnrealLearningKit2Editor (DebugGame)",
+			"request": "launch",
+			"program": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-DebugGame.exe",
+			"preLaunchTask": "UnrealLearningKit2Editor Win64 DebugGame Build",
+			"args": [
+				"C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\ObstacleAssault.uproject"
+			],
+			"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch UnrealLearningKit2Editor (Development)",
+			"request": "launch",
+			"program": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
+			"preLaunchTask": "UnrealLearningKit2Editor Win64 Development Build",
+			"args": [
+				"C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\ObstacleAssault.uproject"
+			],
+			"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "coreclr",
+			"request": "launch",
+			"program": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0\\Engine\\Binaries\\DotNET\\UnrealBuildTool\\UnrealBuildTool",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\ObstacleAssault.uproject",
+				"-game",
+				"-engine"
+			],
+			"console": "externalTerminal",
+			"stopAtEntry": false,
+			"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+		}
+	]
+}

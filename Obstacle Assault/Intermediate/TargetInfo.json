@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "UnrealLearningKit2",
+			"Path": "C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\Source\\UnrealLearningKit2.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "UnrealLearningKit2Editor",
+			"Path": "C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\Source\\UnrealLearningKit2Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

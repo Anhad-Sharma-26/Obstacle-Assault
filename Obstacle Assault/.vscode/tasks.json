@@ -1,0 +1,707 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "UnrealLearningKit2 Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKit2",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit2 Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKit2",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealLearningKit2 Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit2 Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealLearningKit2",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit2 Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKit2",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit2 Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKit2",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealLearningKit2 Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit2 Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealLearningKit2",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit2 Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKit2",
+				"Win64",
+				"Development",
+				"C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit2 Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKit2",
+				"Win64",
+				"Development",
+				"C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealLearningKit2 Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit2 Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealLearningKit2",
+				"Win64",
+				"Development",
+				"C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit2 Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKit2",
+				"Win64",
+				"Test",
+				"C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit2 Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKit2",
+				"Win64",
+				"Test",
+				"C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealLearningKit2 Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit2 Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealLearningKit2",
+				"Win64",
+				"Test",
+				"C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit2 Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKit2",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit2 Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKit2",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealLearningKit2 Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit2 Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealLearningKit2",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit2 HoloLens Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKit2",
+				"HoloLens",
+				"Debug",
+				"C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit2 HoloLens Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKit2",
+				"HoloLens",
+				"Debug",
+				"C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealLearningKit2 HoloLens Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit2 HoloLens Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealLearningKit2",
+				"HoloLens",
+				"Debug",
+				"C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit2 HoloLens DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKit2",
+				"HoloLens",
+				"DebugGame",
+				"C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit2 HoloLens DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKit2",
+				"HoloLens",
+				"DebugGame",
+				"C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealLearningKit2 HoloLens DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit2 HoloLens DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealLearningKit2",
+				"HoloLens",
+				"DebugGame",
+				"C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit2 HoloLens Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKit2",
+				"HoloLens",
+				"Development",
+				"C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit2 HoloLens Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKit2",
+				"HoloLens",
+				"Development",
+				"C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealLearningKit2 HoloLens Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit2 HoloLens Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealLearningKit2",
+				"HoloLens",
+				"Development",
+				"C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit2 HoloLens Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKit2",
+				"HoloLens",
+				"Test",
+				"C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit2 HoloLens Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKit2",
+				"HoloLens",
+				"Test",
+				"C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealLearningKit2 HoloLens Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit2 HoloLens Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealLearningKit2",
+				"HoloLens",
+				"Test",
+				"C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit2 HoloLens Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKit2",
+				"HoloLens",
+				"Shipping",
+				"C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit2 HoloLens Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKit2",
+				"HoloLens",
+				"Shipping",
+				"C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealLearningKit2 HoloLens Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit2 HoloLens Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealLearningKit2",
+				"HoloLens",
+				"Shipping",
+				"C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit2Editor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKit2Editor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit2Editor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKit2Editor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealLearningKit2Editor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit2Editor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealLearningKit2Editor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit2Editor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKit2Editor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit2Editor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKit2Editor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealLearningKit2Editor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit2Editor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealLearningKit2Editor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit2Editor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKit2Editor",
+				"Win64",
+				"Development",
+				"C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit2Editor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKit2Editor",
+				"Win64",
+				"Development",
+				"C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealLearningKit2Editor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit2Editor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealLearningKit2Editor",
+				"Win64",
+				"Development",
+				"C:\\Users\\Anhad Sharma\\Documents\\Unreal Projects\\Obstacle Assault\\ObstacleAssault.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\Anhad Sharma\\Documents\\UE_5.0"
+			}
+		}
+	]
+}

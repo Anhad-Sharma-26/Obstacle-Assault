@@ -1,0 +1,15 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\anhad sharma\\documents\\unreal projects\\unreallearningkit2\\source\\unreallearningkit2\\movingplatform.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\anhad sharma\\documents\\unreal projects\\unreallearningkit2\\intermediate\\build\\win64\\unreallearningkit2editor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\anhad sharma\\documents\\unreal projects\\unreallearningkit2\\intermediate\\build\\win64\\unrealeditor\\development\\unreallearningkit2\\definitions.unreallearningkit2.h",
+            "c:\\users\\anhad sharma\\documents\\unreal projects\\unreallearningkit2\\source\\unreallearningkit2\\movingplatform.h",
+            "c:\\users\\anhad sharma\\documents\\unreal projects\\unreallearningkit2\\intermediate\\build\\win64\\unrealeditor\\inc\\unreallearningkit2\\movingplatform.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

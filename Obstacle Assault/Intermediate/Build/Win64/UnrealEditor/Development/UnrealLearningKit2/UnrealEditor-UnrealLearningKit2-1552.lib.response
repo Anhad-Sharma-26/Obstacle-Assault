@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-UnrealLearningKit2-1552.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Anhad Sharma\Documents\Unreal Projects\UnrealLearningKit2\Intermediate\Build\Win64\UnrealLearningKit2Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\Anhad Sharma\Documents\Unreal Projects\UnrealLearningKit2\Intermediate\Build\Win64\UnrealEditor\Development\UnrealLearningKit2\MovingPlatform.cpp.obj"
+"C:\Users\Anhad Sharma\Documents\Unreal Projects\UnrealLearningKit2\Intermediate\Build\Win64\UnrealEditor\Development\UnrealLearningKit2\UnrealLearningKit2.cpp.obj"
+"C:\Users\Anhad Sharma\Documents\Unreal Projects\UnrealLearningKit2\Intermediate\Build\Win64\UnrealEditor\Development\UnrealLearningKit2\MovingPlatform.gen.cpp.obj"
+"C:\Users\Anhad Sharma\Documents\Unreal Projects\UnrealLearningKit2\Intermediate\Build\Win64\UnrealEditor\Development\UnrealLearningKit2\UnrealLearningKit2.init.gen.cpp.obj"
+"C:\Users\Anhad Sharma\Documents\Unreal Projects\UnrealLearningKit2\Intermediate\Build\Win64\UnrealEditor\Development\UnrealLearningKit2\Default.rc2.res"
+/OUT:"C:\Users\Anhad Sharma\Documents\Unreal Projects\UnrealLearningKit2\Intermediate\Build\Win64\UnrealEditor\Development\UnrealLearningKit2\UnrealEditor-UnrealLearningKit2-1552.lib"
